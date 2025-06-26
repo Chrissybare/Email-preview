@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--[if (gte mso 9)|(IE)]><html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" /><![endif]-->
+<title>Murdoch's</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type="text/css">
+/* Reset Styles */
+#outlook a {
+    padding: 0;
+}
+body {
+    width: 100% !important;
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    margin: 0;
+    padding: 0;
+}
+.ReadMsgBody {
+    width: 100%;
+}
+.ExternalClass {
+    width: 100%;
+}
+.gmail-fix {
+    display: none;
+    display: none!important;
+}
+.backgroundTable {
+    margin: 0 auto;
+    padding: 0;
+    width: 100% !important;
+}
+table td {
+    border-collapse: collapse;
+}
+.ExternalClass * {
+    line-height: 115%;
+}
+th {
+    margin: 0 !important;
+    font-weight: normal;
+}
+.gmail-fix {
+    display: none;
+    display: none!important;
+}
+/* Link Fixes */
+a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+}
+
+/* All Your Font Jazz */
+
+/* Mobile Styles */
+@media only screen and (max-width: 480px) {
+/* General Styles */
+.container {
+    width: 100% !important;
+    overflow: hidden;
+}
+.mobileHide {
+    display: none !important;
+}
+.display-ib {
+    display: inline-block;
+}
+.display-b {
+    display: block;
+}
+.fullWidth {
+    width: 100% !important;
+    height: auto;
+}
+.halfWidth {
+    width: 50% !important;
+    height: auto;
+}
+.float-l {
+    float: left;
+}
+.float-r {
+    float: right;
+}
+.heightAuto {
+    height: auto !important;
+}
+.stack th {
+    width: 100% !important;
+    display: block !important;
+}
+/* Images */
+.fullWidthImg img {
+    width: 100% !important;
+    height: auto;
+}
+/* Buttons */
+.full-btn {
+    width: 100% !important;
+    height: auto;
+    border-left: 0 none !important;
+    border-right: 0 none !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+/* Text */
+.mobileAlignCenter {
+    text-align: center !important;
+    margin: 0 auto !important;
+    float: none !important;
+}
+.left {
+    text-align: left !important;
+}
+.right {
+    text-align: right !important;
+}
+.copy13 {
+    font-size: 13px !important;
+    line-height: 18px !important;
+}
+.copy14 {
+    font-size: 14px !important;
+}
+.copy16 {
+    font-size: 16px !important;
+}
+.copy18 {
+    font-size: 18px !important;
+}
+.copy21 {
+    font-size: 21px !important;
+}
+.copy24 {
+    font-size: 24px !important;
+}
+.copy36 {
+    font-size: 36px !important;
+}
+/* Borders */
+.border-t {
+    border-top: 1px solid #ded4c2;
+}
+.border-b {
+    border-bottom: 1px solid #ded4c2;
+}
+.border-0 {
+    border: 0 none !important;
+}
+.border-t-0 {
+    border-top: 0 none !important;
+}
+.border-r-0 {
+    border-right: 0 none !important;
+}
+.border-b-0 {
+    border-bottom: 0 none !important;
+}
+.border-l-0 {
+    border-left: 0 none !important;
+}
+.border-r-0 {
+    border-right: 0 none !important;
+}
+/* Padding */
+.contentPadding {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+.contentPadding20 {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+.pad-0 {
+    padding: 0 !important;
+}
+.pad-l-0 {
+    padding-left: 0 !important;
+}
+.pad-l-5 {
+    padding-left: 5px !important;
+}
+.pad-l-10 {
+    padding-left: 10px !important;
+}
+.pad-r-0 {
+    padding-right: 0 !important;
+}
+.pad-r-5 {
+    padding-right: 5px !important;
+}
+.pad-r-10 {
+    padding-right: 10px !important;
+}
+.pad-t-0 {
+    padding-top: 0 !important;
+}
+.paddingTop10 {
+    padding-top: 10px !important;
+}
+.paddingTop20 {
+    padding-top: 20px !important;
+}
+.paddingTop30 {
+    padding-top: 30px !important;
+}
+.pad-b-0 {
+    padding-bottom: 0 !important;
+}
+.paddingBottom10 {
+    padding-bottom: 10px !important;
+}
+.paddingBottom20 {
+    padding-bottom: 20px !important;
+}
+*[class].paddingBottom25 {
+    padding-bottom: 25px !important;
+}
+.paddingBottom30 {
+    padding-bottom: 30px !important;
+}
+/* Mobile Show */
+.mobile-show, .mobile-show tbody, .mobile-show tr, .mobile-show td {
+    width: 100% !important;
+    max-height: inherit !important;
+    overflow: visible !important;
+    display: block !important;
+    float: none !important;
+}
+.mobile-show table {
+    display: table !important;
+    width: 100% !important;
+}
+.mobile-show tbody {
+    display: table !important;
+}
+.mobile-show tr {
+    display: table-row !important;
+}
+.mobile-show td {
+    display: table-cell !important;
+}
+/* Footer Nav */
+.footer-nav, .footer-nav tbody, .footer-nav tr, .footer-nav td {
+    width: 100% !important;
+    max-height: inherit !important;
+    overflow: visible !important;
+    display: block !important;
+    float: none !important;
+}
+.footer-nav table {
+    display: table !important;
+    width: 100% !important;
+}
+.footer-nav tbody {
+    display: table !important;
+}
+.footer-nav tr {
+    display: table-row !important;
+}
+.footer-nav td {
+    display: table-cell !important;
+}
+.footer-nav a {
+    display: block !important;
+    width: 100%;
+    padding: 15px 0 !important;
+    border-top: 0 !important;
+    border-bottom: 1px solid #ded4c2 !important;
+    border-right: 0 !important;
+    border-left: 0 !important;
+    font-size: 14px !important;
+}
+/* Reset Styles */
+body {
+    margin: 0 auto !important;
+}
+div[style*="margin: 16px 0"] {
+    margin: 0 auto !important;
+}
+/********* SOLUTION STYLES **********/
+
+/******* SOLUTION STYLES END ********/
+
+
+/********** CUSTOM STYLES ***********/
+.logo img {
+    width: 90px !important;
+}
+.hero {
+    background-size: 600px !important;
+    background-position: center !important;
+}
+.img-swap img {
+    display: none!important;
+}
+.img-swap a {
+    display: block !important;
+    width: 100%;
+    height: 150px;
+    background: url('https://s3-us-west-2.amazonaws.com/murdochs.email/template/social/hero_3_m.jpg') center no-repeat !important;
+    background-size: 480px !important;
+}
+.width-300 {
+    width: 300px !important;
+    margin: 0 auto !important;
+}
+/******** CUSTOM STYLES END *********/
+}
+</style>
+<!--[if gte mso 9]>
+<xml>
+	<o:OfficeDocumentSettings>
+		<o:AllowPNG/>
+		<o:PixelsPerInch>96</o:PixelsPerInch>
+	</o:OfficeDocumentSettings>
+</xml>
+<![endif]--> 
+
+<!-- Gmail Promotion Card Goes Here -->
+<!-- Gmail PromotionCard -->
+	
+</head>
+<body>
+	<div style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;">Western goods, outdoor gear, and a little something for yourself.</div>
+<div style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+<table width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" style="table-layout:fixed;" role="presentation">
+  <tr>
+    <td class="pad-0" align="center" style="padding:0 10px;"><table class="container" width="600" align="center" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" role="presentation">
+        <tr>
+          <td align="center"><!-- Header #2: Center Aligned Logo-->
+            
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+              <tr>
+                <td class="logo paddingTop10 paddingBottom10" align="center" style="padding:20px 0;"><a href="https://www.murdochs.com/?utm_source=usdata&utm_medium=email&utm_campaign=TexasFlyerJuly&utm_term=logo" title="Murdoch's" target="_blank"><img src="https://s3-us-west-2.amazonaws.com/murdochs.email/template/logo.png" alt="Murdoch's" width="120" border="0" style="font-family:Roboto, Arial, Helvetica, sans-serif; font-size:30px; display:block"></a></td>
+              </tr>
+            </table>
+            
+            <!-- Navigation -->
+            
+            <table class="mobileHide" width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+              <tr>
+                <td align="center" style="background-color:#ded4c2;"><table cellpadding="0" cellspacing="0" border="0" role="presentation">
+                    <tr>
+                      <td align="center" style="font-family:Roboto, Arial, Helvetica, sans-serif; font-size:0px;"><a href="https://www.murdochs.com/category/mens/?utm_source=usdata&utm_medium=email&utm_campaign=TexasFlyerJuly&utm_term=mensnav" title="Men's" target="_blank" style="font-size:11px; color: #222222; text-decoration:none; display:inline-block; white-space:nowrap; padding:5px; border:1px solid #ded4c2; box-sizing: border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;"><strong style="font-weight:normal;">Men's</strong></a> <a href="https://www.murdochs.com/category/womens/?utm_source=usdata&utm_medium=email&utm_campaign=TexasFlyerJuly&utm_term=womensnav" title="Women's" target="_blank" style="font-size:11px; color: #222222; text-decoration:none; display:inline-block; white-space:nowrap; padding:5px; border:1px solid #ded4c2; box-sizing: border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;"><strong style="font-weight:normal;">Women's</strong></a> <a href="https://www.murdochs.com/category/sporting-goods/?utm_source=usdata&utm_medium=email&utm_campaign=TexasFlyerJuly&utm_term=sportingnav" title="Sporting Goods" target="_blank" style="font-size:11px; color: #222222; text-decoration:none; display:inline-block; white-space:nowrap; padding:5px; border:1px solid #ded4c2; box-sizing: border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;"><strong style="font-weight:normal;">Sporting Goods</strong></a> <a href="https://www.murdochs.com/category/tools-hardware/?utm_source=usdata&utm_medium=email&utm_campaign=TexasFlyerJuly&utm_term=toolsnav" title="Tools" target="_blank" style="font-size:11px; color: #222222; text-decoration:none; display:inline-block; white-space:nowrap; padding:5px; border:1px solid #ded4c2; box-sizing: border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;"><strong style="font-weight:normal;">Tools</strong></a> <a href="https://www.murdochs.com/category/pets-livestock/?utm_source=usdata&utm_medium=email&utm_campaign=TexasFlyerJuly&utm_term=petnav" title="Pets & Livestock" target="_blank" style="font-size:11px; color: #222222; text-decoration:none; display:inline-block; white-space:nowrap; padding:5px; border:1px solid #ded4c2; box-sizing: border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;"><strong style="font-weight:normal;">Pets &amp; Livestock</strong></a> <a href="https://www.murdochs.com/category/farm-ranch-supplies/?utm_source=usdata&utm_medium=email&utm_campaign=TexasFlyerJuly&utm_term=agnav" title="Farm & Ranch" target="_blank" style="font-size:11px; color: #222222; text-decoration:none; display:inline-block; white-space:nowrap; padding:5px; border:1px solid #ded4c2; box-sizing: border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;"><strong style="font-weight:normal;">Farm &amp; Ranch</strong></a> <a href="https://www.murdochs.com/category/lawn-garden-care/?utm_source=usdata&utm_medium=email&utm_campaign=TexasFlyerJuly&utm_term=lawnnav" title="Lawn &amp; Garden" target="_blank" style="font-size:11px; color: #222222; text-decoration:none; display:inline-block; white-space:nowrap; padding:5px; border:1px solid #ded4c2; box-sizing: border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;"><strong style="font-weight:normal;">Lawn &amp; Garden</strong></a> <a href="https://www.murdochs.com/sales/?utm_source=usdata&utm_medium=email&utm_campaign=TexasFlyerJuly&utm_term=dealsnav" title="Deals" target="_blank" style="font-size:11px; color: #222222; text-decoration:none; display:inline-block; white-space:nowrap; padding:5px; border:1px solid #ded4c2; box-sizing: border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;"><strong style="font-weight:normal;">Deals</strong></a></td>
+                    </tr>
+                  </table></td>
+              </tr>
+            </table>
+            
+            <!-- Navigation END --> 
+            <!-- Header #2 END --> 
+            
+            <!-- Section #1: Hero --> 
+            <!-- Hero #1: Scaling Image -->
+            
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+              <tr>
+                <td class="fullWidthImg" align="center" style="padding: 8px 0px 0px 0px;"><a href="https://www.murdochs.com/news/texas-flyer/?utm_source=usdata&utm_medium=email&utm_campaign=TexasFlyerJuly&utm_term=hero" title="Proud to be in Texas" target="_blank"><img src="https://s3.us-west-2.amazonaws.com/murdochs.email/2025/texas/07-july-flyer/h1-1.jpg" alt="Proud to be in Texas" width="600" border="0" style="display:block; color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size:24px;"></a></td>
+              </tr>
+            </table>
+            
+            <!-- Hero #1: Scaling Image END--> 
+            
+            <!-- Section #1 END -->
+            
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+              <tr>
+                <td align="center" style="padding:20px 0px 20px 0px;"><!-- Headline -->
+                  
+                  <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                    <tr>
+                      <td class="contentPadding" align="center" style="font-family:Roboto, Arial, Helvetica, sans-serif; font-size:24px; font-weight:bold; letter-spacing:1px; color: #222222; text-align:center;">Family. Work. Pets.&nbsp;Land.</td>
+                    </tr>
+                  </table>
+                  
+                  <!-- Headline END--> 
+                  
+                  <!-- Content -->
+                  
+                  <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                    <tr>
+                      <td align="center" style="font-family:Roboto, Arial, Helvetica, sans-serif; font-size:16px; mso-line-height-rule:exactly; line-height:26px; letter-spacing:0.8px; text-align:left; padding:10px 40px; text-decoration: none; color: #222222; font-weight:normal;">Murdoch's is your one-stop shop for quality Western goods, outdoor gear, everyday apparel, and lots more. If we've got it, you probably need it! Stop in and see what we have for&nbsp;you.</td>
+                    </tr>
+                  </table>
+                  
+                  <!-- Content END-->
+                  
+                  <table class="" width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                    <tr>
+                      <th class="" align="center" style="font-weight:normal; padding:5px"> <!-- Red Button - Filled -->
+                        
+                        <table class="" align="center" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                          <tr>
+                            <td class="height-auto" width="220" height="38" align="center" bgcolor="#993316" style="font-family:Roboto, Arial, Helvetica, sans-serif; font-size:18px; width: 220px; height:38px; border:1px solid #993316"><a href="https://www.murdochs.com/news/texas-flyer/?utm_source=usdata&utm_medium=email&utm_campaign=TexasFlyerJuly&utm_term=button1" title="Meet Murdoch's" target="_blank" class="" style="color:#ffffff; text-decoration:none; display:inline-block; padding:10px; background-color: #993316; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; letter-spacing:1px;"><strong>Meet Murdoch's</strong></a></td>
+                          </tr>
+                        </table>
+                        
+                        <!-- Red Button - Filled --> </th>
+                    </tr>
+                    <tr>
+                      <th class="" align="center" style="font-weight:normal; padding:5px"> <!-- Red Button - Outline -->
+                        
+                        <table class="" align="center" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                          <tr>
+                            <td class="height-auto" width="220" height="38" align="center" bgcolor="#993316" style="font-family:Roboto, Arial, Helvetica, sans-serif; font-size:18px; width: 220px; height:38px; border:1px solid #993316"><a href="https://www.murdochs.com/stores/?utm_source=usdata&utm_medium=email&utm_campaign=TexasFlyerJuly&utm_term=button2" title="Find a Store" target="_blank" class="" style="color:#ffffff; text-decoration:none; display:inline-block; padding:10px; background-color: #993316; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; letter-spacing:1px;"><strong>Find a Store</strong></a></td>
+                          </tr>
+                        </table>
+                        
+                        <!-- Red Button - Outline --> </th>
+                    </tr>
+                  </table></td>
+              </tr>
+            </table><table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+	<tbody>
+		<tr>
+			<td class="fullWidthImg" align="center" style="padding:4px 0px 4px 0px;"><table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+									<tbody>
+										<tr>
+											<td align="center" style="padding:0px 0px 0px 0px; border:5px solid #0c4d76;">
+											<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+												<tbody>
+													<tr>
+														<td class="contentPadding" align="center" style="font-family:Roboto, Arial, Helvetica, sans-serif; font-weight:bold; letter-spacing:1px; font-size:50px; color:#993316; text-align:center; padding:10px 0px 0px 0px; line-height:60px">$20&nbsp;OFF </td>
+													</tr>
+													<tr>
+														<td class="contentPadding" align="center" style="font-family:Roboto, Arial, Helvetica, sans-serif; font-weight:normal; letter-spacing:1px; font-size:24px; color:#993316;  text-align:center; padding:0px 0px 0px 0px; line-height: 24px; margin: 0">Your Purchase of $100 or&nbsp;More*</td>
+													</tr>
+													<tr>
+														<td class="contentPadding" align="center" style="font-family:Roboto, Arial, Helvetica, sans-serif; font-weight:normal; letter-spacing:1px; font-size:18px; color:#993316;  text-align:center; padding:10px 0px 10px 0px; line-height: 18px; margin: 0">At any Texas Murdoch's with&nbsp;coupon</td>
+													</tr>
+													<tr>
+														<td class="contentPadding" align="center" style="font-family:Roboto, Arial, Helvetica, sans-serif; font-weight:normal; letter-spacing:1px; font-size:16px; color:#222222;  text-align:center; padding:0px 0px 0px 0px; line-height: 18px; margin: 0"><img src="https://barcode.listrakbi.com/?showCode=false&format=code128&code=C00000000000JELTX9927&foreground=000000&background=FFFFFF&padding=0&borderWidth=0&fontFamily=Verdana&fontSize=12&fontStyle=0&barHeight=40" alt="C00000000000JELTX9927"></td>
+													</tr>
+													
+													<tr>
+														<td>
+														<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+														</table>
+														</td>
+													</tr>
+													<tr>
+														<td align="center" style="font-family:Roboto, Arial, Helvetica, sans-serif; font-size:10px; mso-line-height-rule:exactly; line-height:14px; letter-spacing:0.5px; text-align:center; padding:10px 20px 10px 20px; color: #222222">Offer valid <a href="#" style="text-decoration: none; color: #222222"><strong style="font-weight:normal;">June 30 - July 14, 2025</strong></a>, for $20 off your purchase of $100 or more at <a href="https://www.murdochs.com/?utm_source=usdata&utm_medium=email&utm_campaign=TexasFlyerJuly&utm_term=murdochscom" title="murdochscom" target="_blank" style="color:#222222; text-decoration:none;"><strong style="font-weight:normal;">murdochs.com</strong></a> or any Texas Murdoch's stores. Coupon must be provided and relinquished at time of purchase. Offer not valid on special orders and prior purchases. Savings on in-stock merchandise only. Coupon is non-transferable and is not redeemable for cash. When you return an item, you will forfeit the discount applied to that item. Offer may not be combined with any other discount. Limit one coupon per&nbsp;customer.</strong></a></td>
+													</tr>
+												</tbody>
+											</table>
+											</td>
+										</tr>
+									</tbody>
+								</table></td>
+		</tr>
+	</tbody>
+</table>
+			             						<!-- Section #13: Banner -->
+						<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+							<tr>
+								<td class="fullWidthImg" align="center" style="padding:20px 0px 10px 0px;">
+									
+									<a href="https://www.murdochs.com/news/texas-flyer/?utm_source=usdata&utm_medium=email&utm_campaign=TexasFlyerJuly&utm_term=prod1" title="$6.99 NutreBeef 20% Cattle Cube*" target="_blank"><img src="https://s3.us-west-2.amazonaws.com/murdochs.email/2025/texas/07-july-flyer/banner-1.jpg" width="600" alt="$6.99 NutreBeef 20% Cattle Cube*" border="0" style="display:block; color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size:24px;"></a>
+									
+								</td>
+							</tr>
+						</table>
+						<!-- Section #13: Banner END--><table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                    <tr>
+                      <td class="paddingTop10" align="center" style="padding:20px 0px 20px 0px;"><!-- Stacking Columns -->
+                        
+                        <table class="stack" width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                          <tr>
+                            <th align="left" style="font-weight:normal;"> <!-- Product #1 -->
+                              
+                              <table class="fullWidth" width="190" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                <tr>
+                                  <td class="fullWidthImg" align="center"><a href="https://www.murdochs.com/news/texas-flyer/?utm_source=usdata&utm_medium=email&utm_campaign=TexasFlyerJuly&utm_term=prod2" title="Save 20% Murdoch's Camp Chairs*" target="_blank"><img src="https://s3.us-west-2.amazonaws.com/murdochs.email/2025/texas/07-july-flyer/prod-1.jpg" width="190" alt="Save 20% Murdoch's Camp Chairs*" border="0" style="display:block; color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size:14px;"></a></td>
+                                </tr>
+                              </table>
+                              
+                              <!-- Product #1 END--> </th>
+                            <th class="paddingTop10" align="center" style="font-weight:normal;"> <!-- Product #2 -->
+                              
+                              <table class="fullWidth" width="190" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                <tr>
+                                  <td class="fullWidthImg border-t" align="center"><a href="https://www.murdochs.com/news/texas-flyer/?utm_source=usdata&utm_medium=email&utm_campaign=TexasFlyerJuly&utm_term=prod3" title="$11.99 Ortho Orthene Fire Ant Killer*" target="_blank"><img src="https://s3.us-west-2.amazonaws.com/murdochs.email/2025/texas/07-july-flyer/prod-2.jpg" width="190" alt="$11.99 Ortho Orthene Fire Ant Killer*" border="0" style="display:block; color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size:14px;"></a></td>
+                                </tr>
+                              </table>
+                              
+                              <!-- Product #2 END--> </th>
+                            <th class="paddingTop10" align="right" style="font-weight:normal;"> <!-- Product #3 -->
+                              
+                              <table class="fullWidth" width="190" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                <tr>
+                                  <td class="fullWidthImg border-t" align="center"><a href="https://www.murdochs.com/news/texas-flyer/?utm_source=usdata&utm_medium=email&utm_campaign=TexasFlyerJuly&utm_term=prod4" title="Save $10 Men's and Women's Ariat Jeans*" target="_blank"><img src="https://s3.us-west-2.amazonaws.com/murdochs.email/2025/texas/07-july-flyer/prod-3.jpg" width="190" alt="Save $10 Men's and Women's Ariat Jeans*" border="0" style="display:block; color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size:14px;"></a></td>
+                                </tr>
+                              </table>
+                              
+                              <!-- Product #3 END--> </th>
+                          </tr>
+                          
+                        </table>
+                        
+                        <!-- Stacking Columns END --></td>
+                    </tr>
+                  </table><table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+  <tr>
+    <td align="center" style="padding:10px 0px 20px 0px;"><!-- Stacking Columns -->
+      
+      <table class="stack" width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+        <tr>
+          <th class="mobileAlignCenter" align="left" style="font-weight:normal;"> <!-- Product #1 -->
+            
+            <table class="fullWidth mobileAlignCenter" width="290" cellpadding="0" cellspacing="0" border="0" role="presentation">
+              <tr>
+                <td class="fullWidthImg" align="center"><!-- Product Image --> 
+                  <a href="https://www.murdochs.com/stores/?utm_source=usdata&utm_medium=email&utm_campaign=TexasFlyerJuly&utm_term=findastore" title="Over 45 Locations Across 6 States" target="_blank"><img src="https://s3.us-west-2.amazonaws.com/murdochs.email/2025/texas/07-july-flyer/feature-1.jpg" width="290" alt="Over 45 Locations Across 6 States" border="0" style="display:block; color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size:14px;"></a></td>
+              </tr>
+            </table>
+            
+            <!-- Product #1 END--> </th>
+          <th class="paddingTop20 mobileAlignCenter" align="right" style="font-weight:normal;"> <!-- Product #2 -->
+            
+            <table class="fullWidth mobileAlignCenter" width="290" cellpadding="0" cellspacing="0" border="0" role="presentation">
+              <tr>
+                <td class="fullWidthImg" align="center"><!-- Product Image --> 
+                  <a href="https://www.murdochs.com/rewards/?utm_source=usdata&utm_medium=email&utm_campaign=TexasFlyerJuly&utm_term=joinrewards" title="Murdoch's Rewards Join" target="_blank"><img src="https://s3.us-west-2.amazonaws.com/murdochs.email/2025/texas/07-july-flyer/feature-5.jpg" width="290" alt="Murdoch's Rewards Join" border="0" style="display:block; color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size:14px;"></a></td>
+              </tr>
+            </table>
+            
+            <!-- Product #2 END--> </th>
+        </tr>
+      </table>
+      
+      <!-- Stacking Columns END --></td>
+  </tr>
+</table>
+<table class="" width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                    <tr>
+                      <th class="" align="center" style="font-weight:normal; padding:0px 5px 20px 5px;"> <!-- Red Button - Filled -->
+                        
+                        <table class="" align="center" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                          <tr>
+                            <td class="height-auto" width="220" height="38" align="center" bgcolor="#993316" style="font-family:Roboto, Arial, Helvetica, sans-serif; font-size:18px; width: 220px; height:38px; border:1px solid #993316"><a href="https://www.murdochs.com/news/texas-flyer/?utm_source=usdata&utm_medium=email&utm_campaign=TexasFlyerJuly&utm_term=button3" title="Meet Murdoch's" target="_blank" class="" style="color:#ffffff; text-decoration:none; display:inline-block; padding:10px; background-color: #993316; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; letter-spacing:1px;"><strong>Meet Murdoch's</strong></a></td>
+                          </tr>
+                        </table>
+                        
+                        <!-- Red Button - Filled --> </th>
+                    </tr>
+                    
+                    
+                  </table>
+           
+			  
+			  
+            
+            
+            <!-- DCC -->
+            
+            
+            
+            <!-- DCC END --> 
+            
+            <!-- Footer -->
+            
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+              <tr>
+                <td align="center"><!-- Navigation -->
+                  
+                  <table class="footer-nav" width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                    <tr>
+                      <td class="border-t-0 border-b-0" align="center" style="border-bottom:5px solid #ded4c2;"><table cellpadding="0" cellspacing="0" border="0" role="presentation">
+                          <tr>
+                            <td align="center" style="font-family:Roboto, Arial, Helvetica, sans-serif; font-size:0px;"><a href="https://www.murdochs.com/category/mens/?utm_source=usdata&utm_medium=email&utm_campaign=TexasFlyerJuly&utm_term=mensnav" title="Men's Department" target="_blank" style="font-size:11px; color: #222222; text-decoration:none; display:inline-block; white-space:nowrap; padding:5px; border:1px solid #ffffff; box-sizing: border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;"><strong style="font-weight:normal;">Men's</strong></a> <a href="https://www.murdochs.com/category/womens/?utm_source=usdata&utm_medium=email&utm_campaign=TexasFlyerJuly&utm_term=womensnav" title="Women's Department" target="_blank" style="font-size:11px; color: #222222; text-decoration:none; display:inline-block; white-space:nowrap; padding:5px; border:1px solid #ffffff; box-sizing: border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;"><strong style="font-weight:normal;">Women's</strong></a> <a href="https://www.murdochs.com/category/sporting-goods/?utm_source=usdata&utm_medium=email&utm_campaign=TexasFlyerJuly&utm_term=sportingnav" title="Sporting Goods Department" target="_blank" style="font-size:11px; color: #222222; text-decoration:none; display:inline-block; white-space:nowrap; padding:5px; border:1px solid #ffffff; box-sizing: border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;"><strong style="font-weight:normal;">Sporting Goods</strong></a> <a href="https://www.murdochs.com/category/tools-hardware/?utm_source=usdata&utm_medium=email&utm_campaign=TexasFlyerJuly&utm_term=toolsnav" title="Tools Department" target="_blank" style="font-size:11px; color: #222222; text-decoration:none; display:inline-block; white-space:nowrap; padding:5px; border:1px solid #ffffff; box-sizing: border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;"><strong style="font-weight:normal;">Tools</strong></a> <a href="https://www.murdochs.com/category/pets-livestock/?utm_source=usdata&utm_medium=email&utm_campaign=TexasFlyerJuly&utm_term=petnav" title="Pets & Livestock Department" target="_blank" style="font-size:11px; color: #222222; text-decoration:none; display:inline-block; white-space:nowrap; padding:5px; border:1px solid #ffffff; box-sizing: border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;"><strong style="font-weight:normal;">Pets &amp; Livestock</strong></a> <a href="https://www.murdochs.com/category/farm-ranch-supplies/?utm_source=usdata&utm_medium=email&utm_campaign=TexasFlyerJuly&utm_term=agnav" title="Farm & Ranch Department" target="_blank" style="font-size:11px; color: #222222; text-decoration:none; display:inline-block; white-space:nowrap; padding:5px; border:1px solid #ffffff; box-sizing: border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;"><strong style="font-weight:normal;">Farm &amp; Ranch</strong></a> <a href="https://www.murdochs.com/category/lawn-garden-care/?utm_source=usdata&utm_medium=email&utm_campaign=TexasFlyerJuly&utm_term=lawnnav" title="Lawn & Garden Department" target="_blank" style="font-size:11px; color: #222222; text-decoration:none; display:inline-block; white-space:nowrap; padding:5px; border:1px solid #ffffff; box-sizing: border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;"><strong style="font-weight:normal;">Lawn &amp; Garden</strong></a> <a href="https://www.murdochs.com/sales/?utm_source=usdata&utm_medium=email&utm_campaign=TexasFlyerJuly&utm_term=dealsnav" title="Shop Deals" target="_blank" style="font-size:11px; color: #222222; text-decoration:none; display:inline-block; white-space:nowrap; padding:5px; border:1px solid #ffffff; box-sizing: border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;"><strong style="font-weight:normal;">Deals</strong></a></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                  </table>
+                  
+                  <!-- Navigation END --> 
+                  
+                  <!-- Store Locator - Gift Cards - The Dirt - Boots to Boot -->
+                  
+                  <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                    <tr>
+                      <td align="center" style="padding:20px 0px 0px 0px;"><table class="stack" width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                          <tr>
+                            <th align="center" width="50%" style="font-weight:normal; vertical-align:top;"> <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                <tr>
+                                  <td align="center" style="width:50%; vertical-align:top;"><table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                      <tr>
+                                        <td align="center" style="padding: 0px 0px 0px 0px;"><a href="https://www.murdochs.com/stores/?utm_source=usdata&utm_medium=email&utm_campaign=TexasFlyerJuly&utm_term=footerstore" title="Store Locator" target="_blank"><img src="https://s3.us-west-2.amazonaws.com/murdochs.email/standard-images/footer-rf-23/dark-mode/footer-icon-store-locator.png" alt="Store Locator" style="display:block; width: 100%; max-width: 140px !important;border:0px;" width="140"></a></td>
+                                      </tr>
+                                      <tr>
+                                        <td style="padding: 0px 10px 5px 10px; border-width: 0px; border-style: none; font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: normal; color: #222222; line-height: 1.1; text-align: center"><a href="https://www.murdochs.com/stores/?utm_source=usdata&utm_medium=email&utm_campaign=TexasFlyerJuly&utm_term=footerstore" style="color:#222222;text-decoration:none;" target="_blank" title="Store Locator" data-link-name="Store Locator"><strong style="font-size:16px">Store&nbsp;Locator</strong><br>
+                                          <strong style="font-weight:normal; font-size:14px;">Stop In &amp; See Us</strong></a></td>
+                                      </tr>
+                                    </table></td>
+                                  <td align="center" style="width:50%; vertical-align:top;"><table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                      <tr>
+                                        <td align="center" style="padding: 0px 0px 0px 0px;"><a href="https://www.murdochs.com/gift-cards/?utm_source=usdata&utm_medium=email&utm_campaign=TexasFlyerJuly&utm_term=footergift" title="Gift Cards" target="_blank"><img src="https://s3.us-west-2.amazonaws.com/murdochs.email/standard-images/footer-rf-23/dark-mode/footer-icon-store-giftcard.png" alt="Gift Cards" style="display:block; width: 100%; max-width: 140px !important;border:0px;" width="140"></a></td>
+                                      </tr>
+                                      <tr>
+                                        <td style="padding: 0px 10px 5px 10px; border-width: 0px; border-style: none; font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: normal; color: #222222; line-height: 1.1; text-align: center"><a href="https://www.murdochs.com/gift-cards/?utm_source=usdata&utm_medium=email&utm_campaign=TexasFlyerJuly&utm_term=footergift" style="color:#222222;text-decoration:none;" target="_blank" title="Gift Cards" data-link-name="Store Locator"><strong style="font-size:16px">Gift&nbsp;Cards</strong><br>
+                                          <strong style="font-weight:normal; font-size:14px;">Buy a Gift Card or Check Your&nbsp;Balance</strong></a></td>
+                                      </tr>
+                                    </table></td>
+                                </tr>
+                              </table>
+                            </th>
+                            <th align="center" style="font-weight:normal; vertical-align:top;"> <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                <tr>
+                                  <td align="center" style="width:50%; vertical-align:top;"><table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                      <tr>
+                                        <td align="center" style="padding: 0px 0px 0px 0px;"><a href="https://www.murdochs.com/the-dirt/?utm_source=usdata&utm_medium=email&utm_campaign=TexasFlyerJuly&utm_term=footerdirt" title="The Dirt" target="_blank"><img src="https://s3.us-west-2.amazonaws.com/murdochs.email/standard-images/footer-rf-23/dark-mode/footer-icon-the-dirt.png" alt="The Dirt" style="display:block; width: 100%; max-width: 140px !important;border:0px;" width="140"></a></td>
+                                      </tr>
+                                      <tr>
+                                        <td style="padding: 0px 10px 5px 10px; border-width: 0px; border-style: none; font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: normal; color: #222222; line-height: 1.1; text-align: center"><a href="https://www.murdochs.com/the-dirt/?utm_source=usdata&utm_medium=email&utm_campaign=TexasFlyerJuly&utm_term=footerdirt" style="color:#222222;text-decoration:none;" target="_blank" title="Read the Dirt" data-link-name="Store Locator"><strong style="font-size:16px">Read&nbsp;the&nbsp;Dirt</strong><br>
+                                          <strong style="font-weight:normal; font-size:14px;">Articles &amp; Tips</strong></a></td>
+                                      </tr>
+                                    </table></td>
+                                  <td align="center" style="width:50%; vertical-align:top;"><table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                                      <tr>
+                                        <td align="center" style="padding: 0px 0px 0px 0px;"><a href="https://www.murdochs.com/newsletter/boots-to-boot/?utm_source=usdata&utm_medium=email&utm_campaign=TexasFlyerJuly&utm_term=footerwin" title="Boots to Boot" target="_blank"><img src="https://s3.us-west-2.amazonaws.com/murdochs.email/standard-images/footer-rf-23/dark-mode/footer-icon-boots-to-boot.png" alt="Boots to Boot" style="display:block; width: 100%; max-width: 140px !important;border:0px;" width="140"></a></td>
+                                      </tr>
+                                      <tr>
+                                        <td style="padding: 0px 10px 5px 10px; border-width: 0px; border-style: none; font-family: 'Roboto', sans-serif; font-size: 16px; font-weight: normal; color: #222222; line-height: 1.1; text-align: center"><a href="https://www.murdochs.com/newsletter/boots-to-boot/?utm_source=usdata&utm_medium=email&utm_campaign=TexasFlyerJuly&utm_term=footerwin" style="color:#222222;text-decoration:none;" target="_blank" title="Good Luck" data-link-name="Store Locator"><strong style="font-size:16px">Enter to&nbsp;Win</strong><br>
+                                          <strong style="font-weight:normal; font-size:14px;">Our Monthly Boot Giveaway</strong></a></td>
+                                      </tr>
+                                    </table></td>
+                                </tr>
+                              </table>
+                            </th>
+                          </tr>
+                        </table></td>
+                    </tr>
+                  </table>
+                  
+                  <!-- END Store Locator - Gift Cards - The Dirt - Boots to Boot --> 
+                  
+                  <!-- Rewards Banner -->
+                  
+					<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                    <tr>
+                      <td class="" align="center" style="padding:20px 0px 10px 0px;"><!-- Stacking Columns -->
+                        
+                        <table class="stack" width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                          <tr>
+                            <th align="left" style="font-weight:normal;"> <!-- Product #1 -->
+                              
+                              <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#993316" role="presentation">
+              <tr>
+                <td align="center" bgcolor="#993316" class="mobileAlignCenter pad-0 paddingTop10" style="mso-line-height-rule: exactly; line-height: 16px; font-family:Roboto, Arial, Helvetica, sans-serif; font-size:16px; letter-spacing:1px; color:#ffffff; text-align:right; padding:10px 10px 10px 10px ">&nbsp;<a href="https://www.murdochs.com/rewards/?utm_source=usdata&utm_medium=email&utm_campaign=TexasFlyerJuly&utm_term=footerrewards" title="Rewards" target="_blank" style="text-decoration: none; color: #ffffff; font-size:16px; font-weight:normal;"><strong style="font-weight:bold; text-transform:uppercase;">Murdoch&#8217;s&nbsp;Rewards&#8482;</strong></a>&nbsp;</td>
+              </tr>
+								  
+            </table>
+                              
+                              <!-- Product #1 END--> </th>
+                            <th class="" align="center" style="font-weight:normal;"> <!-- Product #2 -->
+                              
+                              <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#993316" role="presentation">
+              
+				<tr>
+                <td align="center" bgcolor="#993316" class="mobileHide pad-0" style="mso-line-height-rule: exactly; line-height: 16px; font-family:Roboto, Arial, Helvetica, sans-serif; font-size:16px; letter-spacing:1px; color:#ffffff; text-align:center; padding:10px 0px 10px 0px ">&nbsp;|&nbsp;</td>
+              </tr>				  
+            </table>
+                              
+                              <!-- Product #2 END--> </th>
+                            <th class="" align="right" style="font-weight:normal;"> <!-- Product #3 -->
+                              
+                              <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#993316" role="presentation">
+              <tr>
+                <td align="center" bgcolor="#993316" class="mobileAlignCenter pad-0 paddingTop10 paddingBottom10" style="mso-line-height-rule: exactly; line-height: 16px; font-family:Roboto, Arial, Helvetica, sans-serif; font-size:16px; letter-spacing:1px; color:#ffffff; text-align:left; padding:10px 10px 10px 10px ">&nbsp;<a href="https://www.murdochs.com/rewards/?utm_source=usdata&utm_medium=email&utm_campaign=TexasFlyerJuly&utm_term=footerrewards" title="Rewards" target="_blank" style="text-decoration: none; color: #ffffff; font-size:16px; font-weight:normal;"><strong style="font-weight:bold;">Shop. Earn. Redeem.&nbsp;&#9658;</strong></a>&nbsp;</td>
+              </tr>
+            </table>
+                              
+                              <!-- Product #3 END--> </th>
+                          </tr>
+                          
+                        </table>
+                        
+                        <!-- Stacking Columns END --></td>
+                    </tr>
+                  </table>
+					
+                  <!-- Rewards Banner --> 
+                  
+                  <!-- Social Icons -->
+                  
+                  <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                    <tr>
+                      <td align="center" style="padding:20px;"><table align="center" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                          <tr>
+                            <td align="center" style="padding:0 10px;"><a href="https://www.facebook.com/MyMurdochs" title="Facebook" target="_blank"><img src="https://s3.us-west-2.amazonaws.com/murdochs.email/template/social/social-rf-23/Social-Icons-Facebook.png" alt="Facebook" width="40" height="40" style="display:block;" border="0"></a></td>
+                            <td align="center" style="padding:0 10px;"><a href="https://www.linkedin.com/company/murdoch's-ranch-&-home-supply/" title="LindedIn" target="_blank"><img src="https://s3.us-west-2.amazonaws.com/murdochs.email/template/social/social-rf-23/Social-Icons-Linked-In.png" alt="LinkedIn" width="40" height="40" style="display:block;" border="0"></a></td>
+                            <td align="center" style="padding:0 10px;"><a href="https://www.pinterest.com/MyMurdochs" title="Pinterest" target="_blank"><img src="https://s3.us-west-2.amazonaws.com/murdochs.email/template/social/social-rf-23/Social-Icons-Pinterest.png" alt="Pinterest" width="40" height="40" style="display:block;" border="0"></a></td>
+                            <td align="center" style="padding:0 10px;"><a href="https://www.instagram.com/murdochs_/" title="Instagram" target="_blank"><img src="https://s3.us-west-2.amazonaws.com/murdochs.email/template/social/social-rf-23/Social-Icons-Instagram.png" alt="Instagram" width="40" height="40" style="display:block;" border="0"></a></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                  </table>
+                  
+                  <!-- Social Icons END--> 
+                  
+                  <!-- Fine Print -->
+                  <!-- Disclaimer -->
+<table class="fullWidth" align="center" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                    <tbody>
+                      <tr>
+                        <td class="copy13 paddingBottom10" style="font-family:Arial, Helvetica, sans-serif; font-size:10px; mso-line-height-rule:exactly; line-height:14px; color:#222222; padding:0px 40px 10px 40px; text-align:left;"><em>*Offers valid <a href="#" style="text-decoration: none; color: #222222"><strong style="font-weight:normal;">June 30-July 23</strong></a>. In-store at Murdoch's Texas locations&nbsp;only.</em></td>
+                      </tr>
+                    </tbody>
+                  </table>
+<!-- END Disclaimer -->
+                  <!-- Fine Print END --> 
+					
+                  
+					<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                    <tr>
+                      <td style="padding:20px 0px 20px 0px; mso-line-height:rule:exactly; line-height:0px;"><table class="fullWidth footer-nav" width="100%" align="right" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" role="presentation">
+						  <tr>
+                            <td class="mobileAlignCenter" align="center" style="font-family:Roboto, Arial, Helvetica, sans-serif; font-size:10px; mso-line-height-rule:exactly; line-height:14px; text-align:center;"><a href="https://www.murdochs.com/customer-service/?utm_source=usdata&utm_medium=email&utm_campaign=TexasFlyerJuly&utm_term=contact" title="Contact Us" target="_blank" style="color: #222222; text-decoration:none;"><strong style="font-weight:normal;">Contact Us</strong></a><span class="mobileHide"> | </span><a href="https://www.murdochs.com/stores/?utm_source=usdata&utm_medium=email&utm_campaign=TexasFlyerJuly&utm_term=stores" title="Store Locator" target="_blank" style="color:#333333; text-decoration:none;"><strong style="font-weight:normal;">Store Locator</strong></a></td>
+                          </tr></table></td>
+                    </tr>
+                  </table>
+                  <!-- Address -->
+<table class="fullWidth" align="center" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                    <tr>
+                      <td class="copy13 paddingBottom10" align="center" style="font-family:Arial, Helvetica, sans-serif; font-size:10px; mso-line-height-rule:exactly; line-height:14px; color:#333333; padding:0 40px; text-align:mobileAlignCenter;"><table class="stack" align="center" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                          <tr>
+                            <th class="copy13" align="center" style="font-weight:normal; font-family:Roboto, Arial, Helvetica, sans-serif; font-size:10px; mso-line-height-rule:exactly; line-height:14px; color:#333333;"> Murdoch's Ranch &amp; Home Supply<span class="mobileHide">&nbsp;|&nbsp;</span> </th>
+                            <th class="copy13" align="center" style="font-weight:normal; font-family:Roboto, Arial, Helvetica, sans-serif; font-size:10px; mso-line-height-rule:exactly; line-height:14px; color:#333333;"> <a href="https://www.murdochs.com/" title="Murdoch's" target="_blank" style="color:#333333; text-decoration:none;"><strong style="font-weight:normal;">2311 N 7th Ave | Bozeman, MT 59715</strong></a> </th>
+                          </tr>
+                        </table>
+                        &copy; Murdoch's Ranch &amp; Home Supply </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
+                          <tr>
+                      <td><table class="fullWidth footer-nav" width="100%" align="right" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" role="presentation">
+                          <tr>
+                            <td class="mobileAlignCenter" align="center" style="font-family:Roboto, Arial, Helvetica, sans-serif; font-size:10px; mso-line-height-rule:exactly; line-height:14px; text-align:center; padding: 20px 0px 0px 0px"><a href="[[BrowserLink]]" title="View in Browser" target="_blank" style="color:#666666; text-decoration:underline;"><strong style="font-weight:normal;">View in Browser</strong></a></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                        </table>
+                        
+                        </td>
+                    </tr>
+                  </table>
+                  </td>
+              </tr>
+            </table>
+            <!-- Footer END --></td>
+        </tr>
+      </table>
+      
+      <!-- Gmail Fix-->
+      
+      <table class="mobileHide hide gmail-fix" width="600" align="center" cellpadding="0" cellspacing="0" border="0" style=" width:600px; min-width:600px; max-width:600px;" role="presentation">
+        <tr>
+          <td><img src="https://s3-us-west-2.amazonaws.com/murdochs.email/boilerplate/spacer.gif" width="600" height="20" border="0" style="display:block; width:600px; min-width:600px; max-width:600px;"></td>
+        </tr>
+      </table>
+      <div class="gmail-fix" style="white-space:nowrap; font:15px courier; line-height:0;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>
+      
+      <!-- Gmail Fix END --></td>
+  </tr>
+</table>
+<!-- Custom Logo -->
+<div itemscope="" itemtype="http://schema.org/Organization">
+  <meta itemprop="name" content="Murdoch's Ranch &amp; Home Supply">
+  <meta itemprop="logo" content="https://s3-us-west-2.amazonaws.com/murdochs.email/template/logo.png">
+</div>
+	<!-- Deal Badge -->
+<div itemscope="" itemtype="http://schema.org/DiscountOffer">
+<meta itemprop="description" content="">
+<meta itemprop="discountCode" content="">
+<meta itemprop="availabilityStarts" content="2025-06-23T07:00:00-0600">
+<meta itemprop="availabilityEnds" content="2025-07-23T19:00:00-0600">
+</div>
+</body>
+</html>
